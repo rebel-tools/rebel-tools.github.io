@@ -1,0 +1,54 @@
+body {
+  background-color: #fafafa;
+}
+
+#about {
+  margin-top: 60px;
+}
+
+.header-icon {
+  width: 300px;
+}
+
+@media(max-width:767px) {
+  .header-icon {
+    width: 200px;
+  }
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: #{{ site.color.dark }};
+}
+
+section.success {
+  color: #{{ site.color.dark }};
+}
+
+.btn-outline {
+  border: #{{ site.color.dark }};
+  background: #{{ site.color.dark }};
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  background: #{{ site.color.dark }};
+}
+
+hr.star-light {
+  border-color: #{{ site.color.dark }};
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+  background: #{{ site.color.dark }};
+  border-color: #{{ site.color.dark }};
+  transition: 0.3s;
+
+}
+
+.btn-success {
+  background: #{{ site.color.dark }};
+  transition: 0.3s;
+}
+
+footer .footer-above, footer .footer-below {
+  background: #{{ site.color.dark }};
+}

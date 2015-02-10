@@ -81,8 +81,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.dark }};
+    background: #ecf0f1;
 }
 
 header .container {
@@ -116,6 +116,7 @@ header .intro-text .skills {
 
     header .intro-text .name {
         font-size: 4.75em;
+        padding-bottom: 0.2em;
     }
 
     header .intro-text .skills {
@@ -167,6 +168,7 @@ header .intro-text .skills {
 
 .navbar-default,
 .navbar-inverse {
+    background-color: #{{ site.color.dark }};
     border: 0;
 }
 

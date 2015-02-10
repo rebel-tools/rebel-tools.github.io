@@ -1,18 +1,23 @@
 # Site settings
-title: Freelancer
+title: Rebel Tools
 email: your-email@domain.com
 url: https://example.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+# Header settings
+header_title: Jibber
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: FAFAFA #80B3FF
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
+  dark: 3E3E3E
+
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Cubicle Rebels
   location: Location
   social: Around the Web
   credits: Credits
