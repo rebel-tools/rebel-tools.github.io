@@ -1,0 +1,20 @@
+.btn-outline {
+  border: $site_color_dark;
+  background: $site_color_dark;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  background: $site_color_dark;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+  background: $site_color_dark;
+  border-color: $site_color_dark;
+  transition: 0.3s;
+
+}
+
+.btn-success {
+  background: $site_color_dark;
+  transition: 0.3s;
+}

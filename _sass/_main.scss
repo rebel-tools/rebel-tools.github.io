@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: $site_color_background;
 }
 
 h1,
@@ -63,16 +63,16 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: $site_color_background;
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: $site_color_secondary;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
-    background-color: #FAFAFA;
+    color: $site_color_secondary;
+    background-color: #fff;
 }
 
 .img-centered {
@@ -81,8 +81,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #{{ site.color.dark }};
-    background: #ecf0f1;
+    color: #fff;
+    background: $site_color_background;
 }
 
 header .container {
@@ -111,12 +111,11 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .name {
         font-size: 4.75em;
-        padding-bottom: 0.2em;
     }
 
     header .intro-text .skills {
@@ -168,7 +167,6 @@ header .intro-text .skills {
 
 .navbar-default,
 .navbar-inverse {
-    background-color: #{{ site.color.dark }};
     border: 0;
 }
 
@@ -183,7 +181,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: $site_color_background;
 }
 
 @media(max-width:767px) {
@@ -267,7 +265,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: $site_color_background;
     background: #fff;
 }
 
@@ -320,7 +318,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: $site_color_background;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -337,7 +335,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: $site_color_secondary;
 }
 
 footer .footer-col {
@@ -346,7 +344,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #233140;
 }
 
 .btn-social {
@@ -430,7 +428,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: $site_color_secondary;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -440,7 +438,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: $site_color_secondary;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

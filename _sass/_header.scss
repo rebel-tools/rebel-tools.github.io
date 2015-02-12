@@ -1,0 +1,30 @@
+header {
+  color: $site_color_dark;
+
+}
+
+.header-icon {
+  width: 300px;
+}
+
+@media(max-width:767px) {
+  .header-icon {
+    width: 200px;
+  }
+
+  header .container {
+    padding-bottom: 50px;
+  }
+
+  header .intro-text .name {
+    padding-bottom: 0.2em; 
+  }
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: $site_color_dark;
+}
+
+.navbar-default, .navbar-inverse {
+  background-color: $site_color_dark;
+}

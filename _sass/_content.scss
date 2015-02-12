@@ -1,0 +1,20 @@
+body {
+  background-color: $site_color_background;
+}
+
+#partition {
+  margin-top: 60px;
+}
+
+section.success {
+  color: $site_color_dark;
+}
+
+hr.star-light {
+  border-color: $site_color_dark;
+}
+
+hr.star-primary:after {
+  background-color: $site_color_background;
+}
+
