@@ -72,7 +72,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: #FAFAFA;
 }
 
 .img-centered {
@@ -111,7 +111,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 1px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .name {
