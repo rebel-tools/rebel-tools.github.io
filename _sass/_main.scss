@@ -86,8 +86,8 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 header img {
@@ -110,7 +110,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
@@ -171,13 +171,10 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 30px 10px;
 }
 
-section h2 {
-    margin: 0;
-    font-size: 3em;
-}
+
 
 section.success {
     color: #fff;
@@ -186,7 +183,7 @@ section.success {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 30px 0;
     }
 
     section.first {
@@ -307,7 +304,7 @@ section.success {
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group:not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
 }
