@@ -174,12 +174,12 @@ section {
     padding: 30px 10px;
 }
 
-
-
 section.success {
     color: #fff;
     background: $site_color_background;
 }
+
+
 
 @media(max-width:767px) {
     section {
@@ -439,4 +439,8 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.partition {
+    padding-top: 100px;
 }
