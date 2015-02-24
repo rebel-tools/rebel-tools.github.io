@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rebel Tools</title>
+    <description>We are a bunch of free multi-disciplinary individuals comprising of software and hardware engineers, designers and mobile specialists. Each of us with years of experience working in this line, you can be assured you will always be covered by the best.</description>
+    <link>http://cubiclerebels.com/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 24 Feb 2015 09:40:25 +0800</pubDate>
+    <lastBuildDate>Tue, 24 Feb 2015 09:40:25 +0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Project 1</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 +0800</pubDate>
+        <link>http://cubiclerebels.com/web%20development/2014/07/15/project-1/</link>
+        <guid isPermaLink="true">http://cubiclerebels.com/web%20development/2014/07/15/project-1/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Project 2</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by . On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Mon, 14 Jul 2014 00:00:00 +0800</pubDate>
+        <link>http://cubiclerebels.com/web%20development/2014/07/14/project-2/</link>
+        <guid isPermaLink="true">http://cubiclerebels.com/web%20development/2014/07/14/project-2/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Project 3</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by . On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Fri, 14 Mar 2014 00:00:00 +0800</pubDate>
+        <link>http://cubiclerebels.com/web%20development/2014/03/14/project-3/</link>
+        <guid isPermaLink="true">http://cubiclerebels.com/web%20development/2014/03/14/project-3/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+  </channel>
+</rss>
