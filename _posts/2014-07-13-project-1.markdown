@@ -7,6 +7,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: Setting up Jibber is a breeze! The first step is to drag and drop the framework into your Xcode project. Then, head on over to your Project Settings, and under the General tab, scroll down to Linked Frameworks and Libraries, and add libz.dylib. Finally, add -ObjC to your Other Linker Flags, that can be found under Build Settings. You can skip this step if you're using Cocoapods, as this would have already been set. And that's it! Your project is all set up to use Jibber!
 
 ---
