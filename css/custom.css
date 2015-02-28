@@ -364,6 +364,9 @@ footer .footer-below {
 .partition {
   padding-top: 100px; }
 
+p {
+  line-height: 1.75em; }
+
 .list-group {
   color: #000000;
   text-decoration: underline; }
@@ -397,6 +400,22 @@ hr.star-light {
 
 hr.star-primary:after {
   background-color: #FAFAFA; }
+
+/* Modal Content */
+.portfolio-modal .modal-content p {
+  text-align: left; }
+
+.portfolio-modal .close-modal {
+  top: inherit;
+  right: 50.2%;
+  width: inherit;
+  transition: 0.5s all; }
+  .portfolio-modal .close-modal .lr {
+    height: 100%; }
+  .portfolio-modal .close-modal .rl {
+    height: 100%; }
+  .portfolio-modal .close-modal :hover {
+    transition: 0.5s all; }
 
 header {
   color: #3E3E3E; }
@@ -434,6 +453,9 @@ header {
 .btn-success {
   background: #3E3E3E;
   transition: 0.3s; }
+
+.modal-body button {
+  margin-top: 35px; }
 
 footer .footer-above, footer .footer-below {
   background: #3E3E3E; }
