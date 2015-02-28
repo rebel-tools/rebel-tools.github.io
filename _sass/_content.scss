@@ -18,3 +18,27 @@ hr.star-primary:after {
   background-color: $site_color_background;
 }
 
+/* Modal Content */
+
+.portfolio-modal .modal-content p {
+  text-align: left;
+}
+
+.portfolio-modal .close-modal {
+  top: inherit;
+  right: 50.2%;
+  width: inherit;
+  transition: 0.5s all;
+
+  .lr {
+    height: 100%;
+  }
+
+  .rl {
+    height: 100%;
+  }
+
+  :hover {
+    transition: 0.5s all;
+  }
+}
