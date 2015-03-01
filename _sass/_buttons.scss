@@ -1,6 +1,8 @@
 .btn-outline {
   border: $site_color_dark;
   background: $site_color_dark;
+	margin: 0 20px;
+	width: 180px;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
