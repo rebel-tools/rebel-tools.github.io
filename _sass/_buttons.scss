@@ -17,8 +17,10 @@
 }
 
 .btn-success {
+  width: 150px;
   background: $site_color_dark;
   transition: 0.3s;
+  text-align: center;
 }
 
 .modal-body button {
