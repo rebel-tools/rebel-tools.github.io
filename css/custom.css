@@ -440,7 +440,9 @@ header {
 
 .btn-outline {
   border: #3E3E3E;
-  background: #3E3E3E; }
+  background: #3E3E3E;
+  margin: 0 20px;
+  width: 180px; }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   background: #3E3E3E; }
