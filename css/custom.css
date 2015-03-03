@@ -279,13 +279,15 @@ footer .footer-below {
 
 .btn-social {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 2px solid #fff;
-  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
   text-align: center;
-  font-size: 20px;
-  line-height: 45px; }
+  line-height: 45px;
+  margin-top: 15px;
+  color: #fff;
+  background: 0 0;
+  transition: all .3s ease-in-out; }
 
 .btn:focus,
 .btn:active,
@@ -441,11 +443,12 @@ header {
 .btn-outline {
   border: #3E3E3E;
   background: #3E3E3E;
-  margin: 0 20px;
+  margin: 10px 20px;
   width: 180px; }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  background: #3E3E3E; }
+  background: #515151;
+  border: none; }
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
   background: #3E3E3E;
@@ -453,8 +456,10 @@ header {
   transition: 0.3s; }
 
 .btn-success {
+  width: 150px;
   background: #3E3E3E;
-  transition: 0.3s; }
+  transition: 0.3s;
+  text-align: center; }
 
 .modal-body button {
   margin-top: 35px; }
