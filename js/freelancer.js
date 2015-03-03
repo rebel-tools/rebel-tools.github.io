@@ -15,6 +15,8 @@ $(function() {
         event.preventDefault();
     });
 });
+//hide image icon if can't load
+$("img").error(function(){$(this).hide();});
 
 // Floating label headings for the contact form
 $(function() {
