@@ -7,15 +7,21 @@ body {
 }
 
 section.success {
-  color: $site_color_dark;
+  color: $site_color_main;
 }
 
 hr.star-light {
-  border-color: $site_color_dark;
+  border-color: $site_color_main;
 }
 
-hr.star-primary:after {
-  background-color: $site_color_background;
+hr.star-primary {
+  border-color: $site_color_main;
+
+  &:after {
+    color: $site_color_main;
+    background-color: $site_color_background;
+
+  }
 }
 
 
@@ -39,7 +45,7 @@ hr.star-primary:after {
     height: 100%;
   }
 
-  :hover {
+  &:hover {
     transition: 0.5s all;
   }
 }

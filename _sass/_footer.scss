@@ -1,3 +1,11 @@
 footer .footer-above, footer .footer-below {
   background: $site_color_dark;
 }
+
+.footer-col {
+  color: $site-color-background;
+
+  h2 {
+    color: $site-color-background;    
+  }
+}
