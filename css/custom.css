@@ -477,3 +477,6 @@ footer .footer-above, footer .footer-below {
   color: #FAFAFA; }
   .footer-col h2 {
     color: #FAFAFA; }
+
+.btn-social:hover {
+  color: inherit; }
