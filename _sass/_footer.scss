@@ -1,15 +1,19 @@
 footer .footer-above, footer .footer-below {
-  background: $site_color_dark;
+    background: $site_color_dark;
+    p.compact {
+        line-height: 1.4em;
+    }
+    a {
+    	color: #ffffff;
+    }
+    a:hover {
+        color: #81a7cd;
+    }
 }
 
 .footer-col {
-  color: $site-color-background;
-
-  h2 {
-    color: $site-color-background;    
-  }
-}
-
-.btn-social:hover {
-  color: inherit;
+    color: $site-color-background;
+    h2 {
+        color: $site-color-background;
+    }
 }
