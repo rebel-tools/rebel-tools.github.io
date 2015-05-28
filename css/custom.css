@@ -366,6 +366,9 @@ footer .footer-below {
 .partition {
   padding-top: 100px; }
 
+body {
+  font-family: "Helvetica Neue", Helvetica; }
+
 h1, h2, h3, h4, h5, h6 {
   color: #3E3E3E; }
 
@@ -472,11 +475,14 @@ header {
 
 footer .footer-above, footer .footer-below {
   background: #2D4051; }
+  footer .footer-above p.compact, footer .footer-below p.compact {
+    line-height: 1.4em; }
+  footer .footer-above a, footer .footer-below a {
+    color: #ffffff; }
+  footer .footer-above a:hover, footer .footer-below a:hover {
+    color: #81a7cd; }
 
 .footer-col {
   color: #FAFAFA; }
   .footer-col h2 {
     color: #FAFAFA; }
-
-.btn-social:hover {
-  color: inherit; }
